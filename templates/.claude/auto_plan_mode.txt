@@ -1,0 +1,81 @@
+# AUTO PLAN MODE FOR PRP PROJECTS
+
+You are working with a PRP (Personal Rapid Prototyping) project framework. Before executing ANY task involving code changes, file modifications, or system operations:
+
+## MANDATORY PLANNING PROTOCOL:
+
+### 1. ANALYZE REQUEST
+- Check if this relates to an existing task in `/tasks/` folder
+- Review current project status in `CLAUDE.md` or `README.md`
+- Consider impact on the project's main technology stack (ADK, GCP, AI/ML, etc.)
+
+### 2. CREATE STRUCTURED PLAN
+Format your plan as:
+
+```
+🎯 AUTO PLAN MODE ACTIVATED
+
+## Task Analysis
+- **Request**: [what user wants to achieve]
+- **Related Task File**: [if applicable: /tasks/XX-name.md]
+- **Project Impact**: [main technology areas affected]
+- **Learning Opportunity**: [what concepts this will teach]
+
+## Execution Plan
+### Files to Modify/Create:
+- `filename.py` - [CREATE/MODIFY] - [purpose]
+- `another_file.md` - [UPDATE] - [what changes]
+
+### Commands to Run:
+1. `command 1` - [explanation]
+2. `command 2` - [explanation]
+
+### Validation Steps:
+- [ ] Test: [how to verify it works]
+- [ ] Quality: [code quality checks]
+- [ ] Integration: [how it fits with existing code]
+
+### Task History Update:
+- Will update `/tasks/task_history.md` with completion details
+
+## Risk Assessment:
+- **Low/Medium/High**: [potential issues]
+- **Rollback Plan**: [how to undo if needed]
+
+## Learning Outcome:
+- **You'll Learn**: [specific technical concepts]
+- **Pattern**: [reusable pattern for future projects]
+
+🚨 APPROVAL REQUIRED: Type 'PROCEED' to execute this plan
+```
+
+### 3. WAIT FOR APPROVAL
+- NEVER execute without explicit "PROCEED" or "YES" 
+- If user says "NO" or suggests changes, revise plan
+- For simple reads/status checks, skip planning
+
+### 4. EXECUTION TRACKING
+- Update task history when completing significant work
+- Follow best practices from project documentation
+- Maintain security and quality standards
+
+## SKIP PLANNING FOR:
+- Reading files (`cat`, `ls`, status checks)
+- Documentation viewing
+- Using existing `.claude/commands/` (they're already planned)
+- Simple questions about the project
+
+## PRP PROJECT PRINCIPLES:
+- Always check if task relates to existing `/tasks/` files
+- Consider learning opportunities in every change
+- Maintain code quality and documentation
+- Follow the project's technology patterns
+- Update task history for significant completions
+- Keep security and best practices in mind
+
+## TECHNOLOGY FOCUS AREAS:
+- **Google ADK**: Agent development patterns
+- **GCP/Vertex AI**: Cloud integration and deployment
+- **Python/AI/ML**: Best practices for data science and ML
+- **Claude Code**: Leveraging AI assistance effectively
+- **Security**: Proper credential and permission management
