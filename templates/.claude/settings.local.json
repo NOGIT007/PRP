@@ -1,0 +1,44 @@
+{
+  "systemPromptAppend": "$(cat .claude/auto_plan_mode.txt)",
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:google.github.io)",
+      "WebFetch(domain:cloud.google.com)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(source:*)",
+      "Bash(python:*)",
+      "Bash(python test:*)",
+      "Bash(adk web:*)",
+      "Bash(curl:*)",
+      "Bash(pkill:*)",
+      "Bash(find:*)",
+      "Bash(true)",
+      "Bash(rm:*)",
+      "Bash(gcloud:*)",
+      "Bash(uv:*)",
+      "Bash(mkdir:*)",
+      "Bash(git:*)",
+      "Bash(./install.sh)",
+      "Bash(./start.sh:*)",
+      "Bash(cat:*)",
+      "Bash(ls:*)",
+      "Bash(cp:*)",
+      "Bash(chmod:*)",
+      "Bash(mv:*)",
+      "Bash(pip install:*)",
+      "Bash(claude:*)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "github",
+    "puppeteer",
+    "Context7",
+    "time",
+    "sequential-thinking"
+  ],
+  "disabledMcpjsonServers": [
+    "filesystem"
+  ]
+}
